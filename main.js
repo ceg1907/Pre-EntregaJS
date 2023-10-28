@@ -1,4 +1,4 @@
-// sistema de turnos en el cual se ingresa nombre y apellido, numero de celular (solo se pueden agregar numeros), que tiene que estar en base de datos y si no esta, salta un alert diciendo "ingrese un nombre valido".
+// sistema de turnos en el cual se ingresa nombre y apellido, numero de celular , que tiene que estar en base de datos y si no esta, salta un alert diciendo "ingrese un nombre valido".
 // si estas condiciones cumplen puede ingresar al sistema para obtener la fecha del turno con un switch. Luego de haber elegido se laza un alert diciendo "registro su turno con exito"
 // por consola queda registrado los datos
 // tiene 5 intentos para ingresar los datos sino lo saca del sistema y lanza un alert diciendo "supero el limite de intentos".
