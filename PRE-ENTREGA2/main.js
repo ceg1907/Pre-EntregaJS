@@ -60,8 +60,13 @@ function agregarAlCarrito(){
         else{
             alert("No hay stock suficiente del producto.")
         }
+    
+
+
     let articuloEnCarrito = new Carrito (articuloAgregado, cantidad)
     CarritoArmado.push (CarritoArmado)
+    console.table
+
 }
 
 buscarProductos()
