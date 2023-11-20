@@ -25,6 +25,7 @@ function buscarProductos (){
     let resultadoBusqueda = listaArticulos.filter (   (revisa)=>revisa.nombre.toUpperCase().includes(buscador)   )
     if(resultadoBusqueda.length>0){
         console.table(resultadoBusqueda)
+        agregarAlCarrito()
     }
     else{
         alert(`No se encontro el articulo ${buscador}`)
@@ -69,5 +70,5 @@ function agregarAlCarrito(){
 }
 
 buscarProductos()
-agregarAlCarrito()
+
 
